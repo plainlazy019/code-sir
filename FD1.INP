@@ -1,0 +1,26 @@
+ID EXAMPLE
+NN NE NM NDIM NEN NDN  NDN- No. of DOF per Node
+ 4  5  3  1    2   1
+ND NL  NPR EL NPR-No. of Types of Properties
+ 2  0   1  1
+Node#  X  
+ 1     1   
+ 2     1   
+ 3     1   
+ 4     1   
+Elem#  N1  N2  Mat#  Area  
+ 1      1   2   1     1     
+ 2      2   3   2     1     
+ 3      2   4   3     1     
+ 4      3   4   3     1     
+ 5      4   1   3     1     	
+ DOF#  Displacement
+ 1     0
+ 4     1
+DOF#  Load
+MAT#   E     
+ 1     0.5      
+ 2     0.2      
+ 3     0.33     
+
+

@@ -1,0 +1,16 @@
+ID EXAMPLE
+
+NODE#   DISPLACEMENT
+1               0
+2         0.47618
+3         0.80233
+4               1
+ELEM#    STRESS
+1         0.23809
+2         0.06523
+3         0.17286
+4         0.06523
+5           -0.33
+NODE#    REACTION
+1        -0.56809
+4         0.56809

@@ -1,0 +1,23 @@
+Next line is problem title     << 1D STRESS ANALYSIS USING BAR ELEMENT >>
+EXAMPLE 3.3
+NN NE NM NDIM NEN NDN
+ 3  2  1   1   2   1
+ND NL  NMPC
+ 1  3   0
+Node#   X-Coordinate
+ 1      0
+ 2     12
+ 3     24
+Elem#  N1  N2  Mat#  Area TempRise 
+ 1     1   2    1    5.25   0
+ 2     2   3    1    3.75   0
+DOF#  Displacement
+ 1     0
+DOF#  Load
+ 1    8.9334
+ 2  115.3144
+ 3    6.3810
+MAT#  E   Alpha
+ 1   30E6  0
+B1  i  B2 j  B3  (Multi-point constr. B1*Qi+B2*Qj=B3)
+
